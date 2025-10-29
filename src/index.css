@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body {
+  @apply bg-linen text-chocolate dark:bg-chocolate dark:text-linen transition-colors duration-500;
+}
